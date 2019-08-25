@@ -1,2 +1,4 @@
-# photon_api_ue4_sample
-Photon Cloud API Unreal Plugin Example
+# Photon Cloud API UE4 Sample Project
+More information and documentation here:
+
+http://photonue4.xixgames.com/
