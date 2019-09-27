@@ -1,7 +1,6 @@
-# Photon Cloud API UE4 Sample Project
-More information and documentation here:
+# PhotonCloudAPI_UE4_Plugin
+Photon Cloud API - SDK integration as Unreal Engine 4 Plugin
 
-http://photonue4.xixgames.com/
 
 This is a guide on how to integrate Photon with an existing UE4 project
  
@@ -68,3 +67,7 @@ in this file : Photon/Common-cpp/inc/Helpers/TypeName.h
         template<typename Etype> bool operator>=(const Etype& Lsh, const JString& Rsh);*/
 		
 		
+
+More information and documentation here:
+
+http://photonue4.xixgames.com/
