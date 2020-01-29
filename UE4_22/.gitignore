@@ -1,0 +1,13 @@
+*.sln
+.vs/
+_ReSharper.Caches/
+Saved/
+Intermediate/
+Plugins/PhotonCloudAPI/Binaries/
+*.user
+Bin/
+Binaries/
+Build/
+Intermediate/
+Saved/
+enc_temp_folder/
