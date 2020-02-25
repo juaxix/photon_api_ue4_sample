@@ -27,10 +27,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "NetcodeUnitTest",
-			"Enabled": false
-		},
-		{
 			"Name": "OnlineSubsystemGooglePlay",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
@@ -117,6 +113,10 @@
 		},
 		{
 			"Name": "DatasmithContent",
+			"Enabled": false
+		},
+		{
+			"Name": "NetcodeUnitTest",
 			"Enabled": false
 		}
 	]

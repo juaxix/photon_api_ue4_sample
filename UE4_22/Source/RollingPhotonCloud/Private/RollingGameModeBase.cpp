@@ -11,6 +11,22 @@ ARollingGameModeBase::ARollingGameModeBase(const FObjectInitializer & ObjectInit
 //You need to add here the Photon Cloud Mediator Actor to avoid it to be destroyed on level change
 void ARollingGameModeBase::GetSeamlessTravelActorList(bool bToTransition, TArray<AActor*>& ActorList)
 {
-  AActor* mediator = UPhotonCloudAPIBPLibrary::GetPhotonCloud();
-  if (IsValid(mediator)) ActorList.Emplace(mediator);
+  APhotonCloud* photonCloud = UPhotonCloudAPIBPLibrary::GetPhotonCloud();
+  if (IsValid(photonCloud)) 
+  {
+    ActorList.AddUnique(photonCloud);
+    for(const auto observedActor : photonCloud->GetObservedMechanicsActors())
+    {
+      AActor* actor = Cast<AActor>(observedActor.Value);
+      if(IsValid(actor) && UKismetSystemLibrary::DoesImplementInterface(actor, UPhotonMechanics::StaticClass()))
+      {
+        TArray<AActor*> subActors = Cast<IPhotonMechanics>(actor)->Execute_GetActorSeamlessTravelActorList(actor);
+        for (AActor* subActor : subActors)
+        {
+          ActorList.AddUnique(subActor);
+        }
+      }
+    }
+  }
+  
 }

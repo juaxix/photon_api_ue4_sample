@@ -21,6 +21,14 @@
 		{
 			"Name": "SteamVR",
 			"Enabled": false
+		},
+		{
+			"Name": "NUTUnrealEngine4",
+			"Enabled": false
+		},
+		{
+			"Name": "NetcodeUnitTest",
+			"Enabled": false
 		}
 	]
 }
