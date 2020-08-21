@@ -12,9 +12,9 @@
 UCLASS()
 class ROLLINGPHOTONCLOUD_API ARollingGameModeBase : public AGameModeBase
 {
-  GENERATED_BODY()
+	GENERATED_BODY()
 
-  ARollingGameModeBase(const FObjectInitializer & ObjectInitializer);
-  
-  void GetSeamlessTravelActorList(bool bToTransition, TArray<AActor*>& ActorList) override;
+	ARollingGameModeBase(const FObjectInitializer& ObjectInitializer);
+
+	void GetSeamlessTravelActorList(bool bToTransition, TArray<AActor*>& ActorList) override;
 };

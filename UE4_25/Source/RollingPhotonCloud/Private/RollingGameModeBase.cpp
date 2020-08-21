@@ -3,14 +3,14 @@
 #include "PhotonCloudAPIBPLibrary.h"
 #include "PhotonCloud.h"
 
-ARollingGameModeBase::ARollingGameModeBase(const FObjectInitializer & ObjectInitializer) : Super(ObjectInitializer)
+ARollingGameModeBase::ARollingGameModeBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
-  bUseSeamlessTravel = true;
+	bUseSeamlessTravel = true;
 }
 
 //You need to add here the Photon Cloud Mediator Actor to avoid it to be destroyed on level change
 void ARollingGameModeBase::GetSeamlessTravelActorList(bool bToTransition, TArray<AActor*>& ActorList)
 {
-  AActor* mediator = UPhotonCloudAPIBPLibrary::GetPhotonCloud();
-  if (IsValid(mediator)) ActorList.Emplace(mediator);
+	AActor* mediator = UPhotonCloudAPIBPLibrary::GetPhotonCloud();
+	if (IsValid(mediator)) ActorList.Emplace(mediator);
 }

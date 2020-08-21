@@ -11,6 +11,6 @@ public class RollingPhotonCloudEditorTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		bLegacyPublicIncludePaths = false;
 		ShadowVariableWarningLevel = WarningLevel.Error;
-		ExtraModuleNames.AddRange( new string[] { "RollingPhotonCloud" } );
+		ExtraModuleNames.AddRange(new string[] {"RollingPhotonCloud"});
 	}
 }

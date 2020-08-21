@@ -3,4 +3,4 @@
 #include "RollingPhotonCloud.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, RollingPhotonCloud, "RollingPhotonCloud" );
+IMPLEMENT_PRIMARY_GAME_MODULE(FDefaultGameModuleImpl, RollingPhotonCloud, "RollingPhotonCloud");

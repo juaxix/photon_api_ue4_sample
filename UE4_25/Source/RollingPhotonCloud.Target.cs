@@ -12,6 +12,6 @@ public class RollingPhotonCloudTarget : TargetRules
 		bLegacyPublicIncludePaths = false;
 		ShadowVariableWarningLevel = WarningLevel.Error;
 
-		ExtraModuleNames.AddRange( new string[] { "RollingPhotonCloud" } );
+		ExtraModuleNames.AddRange(new string[] {"RollingPhotonCloud"});
 	}
 }
