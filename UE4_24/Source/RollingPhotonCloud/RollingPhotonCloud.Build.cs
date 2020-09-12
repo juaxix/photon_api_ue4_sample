@@ -8,7 +8,10 @@ public class RollingPhotonCloud : ModuleRules
 	public RollingPhotonCloud(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-	
+		bLegacyPublicIncludePaths = false;
+		ShadowVariableWarningLevel = WarningLevel.Error;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
+
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "PhotonCloudAPI" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] { "PhotonCloudAPI" });
