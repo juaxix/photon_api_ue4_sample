@@ -9,7 +9,7 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine", "PhotonCloudAPI"
 			]
 		}
 	],
@@ -44,6 +44,10 @@
 				"IOS",
 				"TVOS"
 			]
+		},
+		{
+			"Name": "PhotonCloudAPI",
+			"Enabled": true
 		}
 	]
 }

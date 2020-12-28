@@ -9,7 +9,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"PhotonCloudAPI",
 			]
 		}
 	],
@@ -60,6 +61,10 @@
 		{
 			"Name": "OnlineSubsystem",
 			"Enabled": false
+		},
+		{
+			"Name": "PhotonCloudAPI",
+			"Enabled": true
 		}
 	]
 }

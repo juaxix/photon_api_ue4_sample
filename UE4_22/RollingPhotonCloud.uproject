@@ -9,7 +9,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"PhotonCloudAPI",
 			]
 		}
 	],
@@ -118,6 +119,10 @@
 		{
 			"Name": "NetcodeUnitTest",
 			"Enabled": false
+		},
+		{
+			"Name": "PhotonCloudAPI",
+			"Enabled": true
 		}
 	]
 }
