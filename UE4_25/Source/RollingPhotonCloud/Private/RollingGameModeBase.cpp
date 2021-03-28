@@ -1,16 +1,26 @@
 // Copyright 1998-2020 jbelon - juaxix - xixgames, Inc. All Rights Reserved.
 #include "RollingGameModeBase.h"
-#include "PhotonCloudAPIBPLibrary.h"
-#include "PhotonCloud.h"
+#include "PhotonCloudActor_deprecated.h"
+#include "PhotonCloudObject.h"
+#include "PhotonCloudSubsystem.h"
 
 ARollingGameModeBase::ARollingGameModeBase(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
 	bUseSeamlessTravel = true;
 }
 
-//You need to add here the Photon Cloud Mediator Actor to avoid it to be destroyed on level change
 void ARollingGameModeBase::GetSeamlessTravelActorList(bool bToTransition, TArray<AActor*>& ActorList)
 {
-	AActor* mediator = UPhotonCloudAPIBPLibrary::GetPhotonCloud();
-	if (IsValid(mediator)) ActorList.Emplace(mediator);
+	// add actors for seamless travel, for example from the list of observed actors
+	if (UPhotonCloudObject* PhotonCloud = GetGameInstance()->GetSubsystem<UPhotonCloudSubsystem>()->GetPhotonCloudAPI())
+	{
+		auto ObservedMechanicsActors = PhotonCloud->GetObservedMechanicsActors();
+		for (auto& ObservedMechanicsActor: ObservedMechanicsActors)
+		{
+			if (IsValid(ObservedMechanicsActor.Value) && ObservedMechanicsActor.Value->IsA(AActor::StaticClass()))
+			{
+				ActorList.Add(Cast<AActor>(ObservedMechanicsActor.Value));
+			}
+		}
+	}
 }

@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "4.25",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -47,29 +47,9 @@
 			]
 		},
 		{
-			"Name": "OnlineSubsystemNull",
-			"Enabled": false
-		},
-		{
-			"Name": "OnlineSubsystemUtils",
-			"Enabled": false
-		},
-		{
-			"Name": "OnlineSubsystem",
-			"Enabled": false
-		},
-		{
 			"Name": "PhotonCloudAPI",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/76bee07c672c4dbba14df190d82f7f33"
-		},
-		{
-			"Name": "RemoteSession",
-			"Enabled": true
-		},
-		{
-			"Name": "SlateRemote",
-			"Enabled": true
 		}
 	]
 }

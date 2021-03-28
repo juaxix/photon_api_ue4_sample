@@ -1,8 +1,6 @@
 # PhotonCloudAPI_UE4_Plugin
 Photon Cloud API - SDK integration as Unreal Engine 4 Plugin
 
-* It's very important that you launch the game from PIE with single process option disabled.
-
 This is a guide on how to integrate Photon with an existing UE4 project
  
 For a reference project please go to 

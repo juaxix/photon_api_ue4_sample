@@ -16,5 +16,5 @@ class ROLLINGPHOTONCLOUD_API ARollingGameModeBase : public AGameModeBase
 
 	ARollingGameModeBase(const FObjectInitializer& ObjectInitializer);
 
-	void GetSeamlessTravelActorList(bool bToTransition, TArray<AActor*>& ActorList) override;
+	virtual void GetSeamlessTravelActorList(bool bToTransition, TArray<AActor*>& ActorList) override;
 };
