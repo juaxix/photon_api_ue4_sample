@@ -1,6 +1,5 @@
 // Copyright 1998-2020 jbelon - juaxix - xixgames, Inc. All Rights Reserved.
 #include "RollingGameModeBase.h"
-#include "PhotonCloudActor_deprecated.h"
 #include "PhotonCloudObject.h"
 #include "PhotonCloudSubsystem.h"
 
