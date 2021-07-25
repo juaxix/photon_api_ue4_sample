@@ -10,3 +10,9 @@ Binaries/
 Build/
 enc_temp_folder/
 ThirdPerson_Photon/ThirdPerson_Photon/Plugins/
+AmongClouds/Content/StarterBundle/
+AmongClouds/RawAssets/
+AmongClouds/Plugins/PhotonCloudAPI
+PhotonVR/Plugins/PhotonCloudAPI
+PhotonVR/WindowsNoEditor/
+PhotonNetworkingFeat/Plugins/
