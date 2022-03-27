@@ -4,8 +4,6 @@
 #include "PhotonCloudConfig.h"
 #include "PhotonCloudObject.h"
 
-
-#pragma optimize("", off)
 void URollingGameInstance::Init()
 {
 #if WITH_EDITOR
@@ -26,10 +24,8 @@ void URollingGameInstance::Init()
 		}
 #else
 		UPhotonCloudConfig::PhotonCloudAPIObjectClassOverride = CloudBP;
-		UE_LOG(LogTemp, Log, TEXT("Class %s"), *CloudBP->GetName());
 #endif
 	}
 	
 	Super::Init();
 }
-#pragma optimize("", on)
