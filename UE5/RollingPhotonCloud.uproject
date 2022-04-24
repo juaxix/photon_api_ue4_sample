@@ -55,15 +55,6 @@
 		{
 			"Name": "OnlineSubsystem",
 			"Enabled": false
-		},
-		{
-			"Name": "Bridge",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
-			]
 		}
 	]
 }
