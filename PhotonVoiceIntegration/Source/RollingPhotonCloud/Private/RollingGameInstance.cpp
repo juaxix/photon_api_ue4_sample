@@ -8,7 +8,7 @@ void URollingGameInstance::Init()
 {
 #if WITH_EDITOR
 	UObject* CloudBPAsset = Cast<UObject>(StaticLoadObject(UObject::StaticClass(), NULL,
-			 TEXT("/Game/PhotonCloudAPI/RollingBP/Blueprints/PhotonCloudObjectAPI_BP.PhotonCloudObjectAPI_BP")));
+		TEXT("/Game/PhotonCloudAPI/RollingBP/Blueprints/PhotonCloudObjectAPI_BP.PhotonCloudObjectAPI_BP")));
 	
 #else
 	UClass* CloudBP = StaticLoadClass(UObject::StaticClass(), NULL,

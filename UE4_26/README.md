@@ -69,4 +69,14 @@ in this file : Photon/Common-cpp/inc/Helpers/TypeName.h
 
 More information and documentation here:
 
-http://photonue4.xixgames.com/
+https://photonue4.xixgames.com/
+
+
+Photon Voice:
+- make sure you enabled your mic and set it as default (same for output)
+- you can disable the module in the .uplugin if you are not going to use it
+
+
+Special thanks:
+- Tom Looman - for his help with the plugin and the engine from the beginnings
+- Vageesh Bhardwaj - for his help with VR, bitmasks, testing, and bugs findings
