@@ -55,6 +55,10 @@
 		{
 			"Name": "OnlineSubsystem",
 			"Enabled": false
+		},
+		{
+			"Name": "Spatialization",
+			"Enabled": true
 		}
 	]
 }
