@@ -10,7 +10,7 @@ public class RollingPhotonCloudEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		bLegacyPublicIncludePaths = false;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 		ExtraModuleNames.AddRange(new string[] {"RollingPhotonCloud"});
 	}
 }
