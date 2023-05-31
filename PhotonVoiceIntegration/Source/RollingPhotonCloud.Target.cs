@@ -12,11 +12,11 @@ public class RollingPhotonCloudTarget : TargetRules
 		{
 			AdditionalLinkerArguments += " -lSceCes -lSceCesCs_stub_weak ";
 		}
-        else if (Target.Platform == UnrealTargetPlatform.Linux)
-        {
-            // TODO: add these flags
-            AdditionalCompilerArguments += " -Wl --copy-dt-needed-entries ";
-        }
+		else if (Target.Platform == UnrealTargetPlatform.Linux)
+		{
+			// TODO: add these flags
+			AdditionalCompilerArguments += " -Wl --copy-dt-needed-entries ";
+		}
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		bLegacyPublicIncludePaths = false;
 		ShadowVariableWarningLevel = WarningLevel.Error;
