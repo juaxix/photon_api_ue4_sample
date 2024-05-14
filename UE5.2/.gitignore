@@ -1,0 +1,7 @@
+*.sln
+.vs/
+_ReSharper.Caches/
+Saved/
+Intermediate/
+Plugins/PhotonCloudAPI/Binaries/
+*.user
