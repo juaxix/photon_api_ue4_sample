@@ -1,0 +1,218 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.3",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemNull",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemGooglePlay",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "OnlineSubsystemIOS",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"TVOS"
+			]
+		},
+		{
+			"Name": "OnlineBase",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "AppleMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "WebMMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "WindowsMoviePlayer",
+			"Enabled": false
+		},
+		{
+			"Name": "AvfMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "MediaPlate",
+			"Enabled": false
+		},
+		{
+			"Name": "MediaCompositing",
+			"Enabled": false
+		},
+		{
+			"Name": "WmfMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "ImgMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "CableComponent",
+			"Enabled": false
+		},
+		{
+			"Name": "BlueprintHeaderView",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosClothEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosCloth",
+			"Enabled": false
+		},
+		{
+			"Name": "CLionSourceCodeAccess",
+			"Enabled": false
+		},
+		{
+			"Name": "CodeLiteSourceCodeAccess",
+			"Enabled": false
+		},
+		{
+			"Name": "DatasmithContent",
+			"Enabled": false
+		},
+		{
+			"Name": "ArchVisCharacter",
+			"Enabled": false
+		},
+		{
+			"Name": "GLTFExporter",
+			"Enabled": false
+		},
+		{
+			"Name": "MeshPainting",
+			"Enabled": false
+		},
+		{
+			"Name": "InterchangeEditor",
+			"Enabled": false
+		},
+		{
+			"Name": "InterchangeTests",
+			"Enabled": false
+		},
+		{
+			"Name": "Iris",
+			"Enabled": false
+		},
+		{
+			"Name": "KDevelopSourceCodeAccess",
+			"Enabled": false
+		},
+		{
+			"Name": "PerforceSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "SpeedTreeImporter",
+			"Enabled": false
+		},
+		{
+			"Name": "SubversionSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "TcpMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "UdpMessaging",
+			"Enabled": false
+		},
+		{
+			"Name": "UObjectPlugin",
+			"Enabled": false
+		},
+		{
+			"Name": "ActorSequence",
+			"Enabled": false
+		},
+		{
+			"Name": "AndroidMedia",
+			"Enabled": false
+		},
+		{
+			"Name": "BackChannel",
+			"Enabled": false
+		},
+		{
+			"Name": "CameraShakePreviewer",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosUserDataPT",
+			"Enabled": false
+		},
+		{
+			"Name": "CryptoKeys",
+			"Enabled": false
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": false
+		},
+		{
+			"Name": "EditorDebugTools",
+			"Enabled": false
+		},
+		{
+			"Name": "ExampleDeviceProfileSelector",
+			"Enabled": false
+		},
+		{
+			"Name": "FastBuildController",
+			"Enabled": false
+		},
+		{
+			"Name": "GitSourceControl",
+			"Enabled": false
+		},
+		{
+			"Name": "AlembicImporter",
+			"Enabled": false
+		},
+		{
+			"Name": "GeometryCache",
+			"Enabled": false
+		},
+		{
+			"Name": "Metasound",
+			"Enabled": false
+		}
+	]
+}
